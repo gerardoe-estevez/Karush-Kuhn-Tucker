@@ -39,7 +39,7 @@ res = minimize(lambda x: lagrangian(x, l0[0], l0[1]), x0, bounds=bounds,
                constraints=({'type': 'ineq', 'fun': constraint1},
                             {'type': 'ineq', 'fun': constraint2}))
 
-print("Resultados de la optimización:")
+print("Resultados de la Optimización:")
 print(res)
 
 # Grafica
